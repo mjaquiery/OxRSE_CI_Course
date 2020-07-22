@@ -7,7 +7,7 @@ class TestFunctionality(unittest.TestCase):
 
     def test_greeting(self):
         # self.assertEqual(ci_course.greet(), "Hello ")
-        with self.assertRaisesRegex(ValueError, "No name, no greeting\."):
+        with self.assertRaisesRegex(ValueError, r"No name, no greeting\."):
             ci_course.greet()
         self.assertEqual(ci_course.greet("Fergus"), "Hello Fergus")
 
