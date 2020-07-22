@@ -43,3 +43,7 @@ def minimum(*args):
             the_min = min(the_min, arg)
 
     return the_min
+
+
+def lazy_function():
+    return "Here's a lazy function whose code never gets checked!"
