@@ -1,6 +1,6 @@
 # OxRSE Continuous Integration course
 
-![Python package](https://github.com/mjaquiery/OxRSE_CI_Course/workflows/Python%20package/badge.svg)
+![Python 3.6-3.8 on Ubuntu/MacOS/Windows](https://github.com/mjaquiery/OxRSE_CI_Course/workflows/Python%203.6-3.8%20on%20Ubuntu/MacOS/Windows/badge.svg)
 
 This project contains a small Python project. We are going to use free cloud services to automate:
 
