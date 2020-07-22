@@ -36,4 +36,3 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        python ci_course/tests/test_functionality.py
