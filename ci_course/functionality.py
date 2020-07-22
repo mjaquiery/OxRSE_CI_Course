@@ -15,6 +15,8 @@ def greet(name=""):
     str
         The greeting
     """
+    if name == "":
+        raise ValueError("No name, no greeting.")
     return f"Hello {name}"
 
 

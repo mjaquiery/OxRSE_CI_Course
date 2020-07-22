@@ -36,4 +36,4 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        python $GITHUB_WORKSPACE/ci_course/tests/test_functionality.py
+        python ci_course/tests/test_functionality.py
